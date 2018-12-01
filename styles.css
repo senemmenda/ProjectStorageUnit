@@ -1,0 +1,66 @@
+header {
+  background-color: #7b4b94;
+  padding: 1em;
+  text-align: center;
+  font-family: Impact
+}
+
+h1 {
+  color: #b7e3cc;
+}
+
+nav {
+  background-color: #d6f7a3;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ nav li {
+   list-style: none;
+   float: left;
+
+ }
+
+nav a {
+  color #7d82b8;
+  text-decoration: none;
+  border-right: 1px solid #7d82b8;
+  padding: 1em;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #c4ffb2;
+}
+
+#main_content {
+  background-color: #b7e3cc;
+  padding: 1em;
+  overflow: hidden;
+  width: 100%;
+}
+
+article h2,
+aside h3 {
+  margin: 0;
+}
+article {
+  float: left;
+}
+
+.facts {
+  float: right;
+  background-color: #d6f7a3;
+  margin: -1em;
+  width: 20%;
+  min-height: 400px;
+  padding: 1em;
+}
+
+body {
+  margin: 0;
+}
