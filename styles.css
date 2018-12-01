@@ -1,16 +1,25 @@
+/* #124e78, dark cerulean
+#ff5a5f, pastel red
+#fffda0, canary
+#3d3637, black olive
+#fbfef9, baby powder
+  */
+
 header {
-  background-color: #7b4b94;
+  background-color: #124e78;
   padding: 1em;
-  text-align: center;
+
   font-family: Impact
+
 }
 
 h1 {
-  color: #b7e3cc;
+  color: #fffda0;
+
 }
 
 nav {
-  background-color: #d6f7a3;
+  background-color: #ff5a5f;
 
 }
 
@@ -26,23 +35,25 @@ nav ul {
  }
 
 nav a {
-  color #7d82b8;
+  color #fffda0;
   text-decoration: none;
-  border-right: 1px solid #7d82b8;
+  border-right: 1px solid #fffda0;
   padding: 1em;
   display: inline-block;
 }
 
 nav a:hover {
-  background-color: #c4ffb2;
+  background-color: ##124e78;
 }
 
 #main_content {
-  background-color: #b7e3cc;
+  background-color: #fbfef9;
   padding: 1em;
   overflow: hidden;
-  width: 100%;
+
 }
+
+
 
 article h2,
 aside h3 {
@@ -50,11 +61,12 @@ aside h3 {
 }
 article {
   float: left;
+
 }
 
 .facts {
   float: right;
-  background-color: #d6f7a3;
+  background-color: #fffda0;
   margin: -1em;
   width: 20%;
   min-height: 400px;
@@ -63,4 +75,33 @@ article {
 
 body {
   margin: 0;
+}
+
+img {
+  float: right;
+  margin-top: -90px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #124e78;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff5a5f;
+    background-color: #fffda0;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
