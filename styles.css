@@ -64,6 +64,14 @@ article {
 
 }
 
+article img{
+  margin-top: 50px;
+  float: left;
+  margin: 1em;
+
+
+}
+
 .facts {
   float: right;
   background-color: #fffda0;
